@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 Account_Username = input("Enter your Instagram account's Username:")
 Account_Password = input("Enter your Instagram account's Password:")
 website = webdriver.Firefox(executable_path="geckodriver-v0.27.0-linux64/geckodriver")
-running = True
+
 
 
 class instagram:
